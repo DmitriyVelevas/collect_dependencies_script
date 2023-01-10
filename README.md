@@ -1,7 +1,7 @@
 # collect.sh
-Script provides downloading aim packages and depencies for it to local machine without installation
+Script provides downloading aim packages and depencies for it to local machine without installation.
 
-1. Copy collect.sh to some empty folder
+1. Copy collect.sh to some empty folder.
 2. Execute command:
 ```
 ./collect.sh package_1 package_2 package_N
@@ -11,7 +11,7 @@ Script provides downloading aim packages and depencies for it to local machine w
 Attention! Script downloads only packages that aren't installed in your system. For example, if openssh-server has been installed earlier, script won't download any dependencies. In this case you should use key "all":
 
 ```
-./collect.sh --all package_1 package_2 package_N
+./collect.sh --all openssh-server
 ```
 
 You have to remember that absolutly all accessible dependencies will be downloaded, so it can take a lot of disk space. I reccomned to execute script on clean system.
