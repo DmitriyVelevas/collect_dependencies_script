@@ -40,7 +40,6 @@ function get_dependencies_and_download {
     
 }
 
-DOWNLOADED_PKGS = ''
 while [ -n "$1" ]
 do
     get_dependencies_and_download $1 $DOWNLOADED_PKGS
