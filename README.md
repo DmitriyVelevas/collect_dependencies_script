@@ -13,3 +13,5 @@ Attention! Script downloads only packages that aren't installed in your system. 
 ```
 ./collect.sh --all package_1 package_2 package_N
 ```
+
+You have to remember that absolutly all accessible dependencies will be downloaded, so it can take a lot of disk space. I reccomned to execute script on clean system.
