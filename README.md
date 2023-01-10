@@ -8,7 +8,7 @@ Script provides downloading aim packages and depencies for it to local machine w
 ```
 3. You will find packages in the folder
 
-Attention! Script downloads only packages that aren't installed in your system. For example, if openssh-server has been installed earlier, script won't downloads dependencies. In this case you should use key:
+Attention! Script downloads only packages that aren't installed in your system. For example, if openssh-server has been installed earlier, script won't download any dependencies. In this case you should use key:
 
 ```
 ./collect.sh --all package_1 package_2 package_N
