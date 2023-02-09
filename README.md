@@ -14,4 +14,4 @@ Attention! Script downloads only packages that aren't installed in your system. 
 ./collect.sh --all openssh-server
 ```
 
-You have to remember that absolutly all accessible dependencies will be downloaded, so it can take a lot of disk space. I reccomned to execute script on clean system.
+You have to remember that absolutly all accessible dependencies will be downloaded, so it can take a lot of disk space. I recomned to execute script on clean system.
